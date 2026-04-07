@@ -15,8 +15,8 @@ import {
 import {
   formatComponentName,
   formatDisplayName,
-  formatSearchString,
 } from "../utils/formatters.js";
+import { formatSearchString } from "../utils/search.js";
 import type {
   BuildFilesSourceOptions,
   FilterCatalogParams,
